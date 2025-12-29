@@ -1,91 +1,58 @@
-/* General Styling */
-
+/* General CSS for the body / etc. */
 body {
     background-color: hsl(0, 0%, 5%);
 }
 
-/* Nav Bar Styling */
 
-#navbar {
-    list-style-type: none;
-    background-color: hsl(0, 0%, 15%);
+/* CSS for the three main sections of the page */
+#main_container {
+    width: 100%;
+    min-height: 100vh;
     display: flex;
     flex-direction: row;
 }
 
-#navbar a {
-    float: left;
-    color: hsl(0, 0%, 95%);
-    text-align: center;
-    text-decoration: none;
-    padding: 14px 16px;
-    justify-content: center;
-    font-size: 16px;
-}
 
-#navbar a:hover {
-    background-color: hsl(0, 0%, 35%);
-    color: hsl(0, 0%, 5%);
-}
-
-#about_page_title {
-    color: white;
-    justify-self: center;
+/* LEFT SECTION */
+#left_section {
+    background-color: hsl(0, 0%, 25%);
+    flex: 1;
 }
 
 
-#description_block_1 {
+/* MIDDLE SECTION */
+#middle_section {
     display: flex;
-    width: 30%;
-    border-radius: 10px;
-    justify-self: center;
-    background-color: black;
+    flex-direction: column;;
+    background-color: hsl(0, 0%, 45%);
+    flex: 5;
 }
 
-#description_block_1 p {
-    color: white;
-    padding: 14px 16px;
+#middle_section h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3em;
+}
+#middle_section p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2em;
 }
 
-#description_block_1 h2 {
-    color: white;
-    padding: 14px 16px;
-}
 
-#interests_container {
+/* RIGHT SECTION */
+#right_section {
     display: flex;
-    background-color: hsl(0, 0%, 15%);
-    justify-self: center;
-    border-radius: 10px;
-    width: 50%;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.interest_card {
-    width: 25%;
-    height: 40%;
     justify-content: center;
-    align-content: center;
-    background-color: grey;
+    background-color: hsl(0, 0%, 65%);
+    flex: 4;
 }
 
-.interest_card h2 {
-    color: white;
-    justify-self: center;
-}
+/* Headshot image and icons in right section */
 
-.interest_card p {
-    color: white;
+#headshot_photo {
     justify-self: center;
-}
-
-.headshot {
-    justify-self: center;
-    width: 300px;
-    height: 300px;
-    border-radius: 50% 15% 50% 15%;
+    align-self: center;
     object-fit: cover;
-    object-position: center;
-    display: block;
+    height: 400px;
+    width: 400px;
+    border-radius: 50% 0% 50% 0%;
 }
