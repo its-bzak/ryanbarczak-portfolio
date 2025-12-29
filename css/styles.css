@@ -15,7 +15,7 @@ body {
 
 /* LEFT SECTION */
 #left_section {
-    background-color: hsl(0, 0%, 25%);
+    background-color: hsl(0, 0%, 15%);
     flex: 1;
 }
 
@@ -24,17 +24,19 @@ body {
 #middle_section {
     display: flex;
     flex-direction: column;;
-    background-color: hsl(0, 0%, 45%);
+    background-color: hsl(0, 0%, 5%);
     flex: 5;
 }
 
 #middle_section h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 3em;
+    color: hsl(0, 0%, 95%);
 }
 #middle_section p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 2em;
+    color: hsl(0, 0%, 80%);
 }
 
 
@@ -42,7 +44,7 @@ body {
 #right_section {
     display: flex;
     justify-content: center;
-    background-color: hsl(0, 0%, 65%);
+    background-color: hsl(0, 0%, 5%);
     flex: 4;
 }
 
