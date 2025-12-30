@@ -40,7 +40,7 @@ body {
     flex: 5;
 }
 
-#button_container {
+#link_container {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -49,27 +49,28 @@ body {
 }
 
 #middle_section h1 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 3em;
     padding-left: 15px;
+    margin: 0px 0px 0px 30px;
     color: hsl(0, 0%, 95%);
 }
 #middle_section p {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 2em;
-    padding-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0px 10px 30px;
+    line-height: 1;
+    font-size: 32px;
+    padding-left: 15px;
     width: 80%;
     color: hsl(0, 0%, 80%);
 }
 
-.main_btn {
-    background-color: hsl(0, 0%, 25%);
+.main_links {
+    background-color: hsl(0, 0%, 5%);
     border: none;
     color: hsl(0, 0%, 95%);
-    width: 20%;
-    height: 15%;
     padding: 15px 30px;
-    text-decoration: none;
+    text-decoration: underline;
     justify-items: center;
     align-items: center;
     display: flex;
