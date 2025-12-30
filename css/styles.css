@@ -119,6 +119,7 @@ body {
     border: 1px;
     border-color: hsl(0, 0%, 95%);
     background-color: hsl(0, 0%, 15%);
+    scale: 105%;
 }
 
 #about_me_link {
@@ -130,8 +131,8 @@ body {
 
 #about_me_link:hover {
     background-color: hsl(0, 0%, 15%);
+    scale: 105%;
 }
-
 
 /* RIGHT SECTION */
 #right_section {
@@ -162,6 +163,10 @@ body {
     height: 400px;
     width: 400px;
     border-radius: 50% 0% 50% 0%;
+}
+
+#headshot_photo:hover {
+    scale: 105%;
 }
 
 #tools_and_tech_div {
