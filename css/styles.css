@@ -24,6 +24,7 @@ body {
 }
 
 #left_section a {
+    font-family: 'Courier New', Courier, monospace;
     text-decoration: none;
     color: hsl(0, 0%, 95%);
 }
@@ -48,13 +49,13 @@ body {
 }
 
 #middle_section h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 3em;
     padding-left: 15px;
     color: hsl(0, 0%, 95%);
 }
 #middle_section p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 2em;
     padding-left: 30px;
     width: 80%;
