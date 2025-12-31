@@ -309,6 +309,7 @@
 .tech_used a {
     text-decoration: none;
     color: hsl(0, 0%, 95%);
+    font-weight: bolder;
 }
 
 #csc_homework_project {
